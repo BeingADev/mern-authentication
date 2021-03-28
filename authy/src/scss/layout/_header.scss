@@ -1,0 +1,27 @@
+.header {
+	background: $dark-blue;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px 25px;
+}
+.logo {
+	color: $white;
+	font: #{25px}/#{1.1} $Berkshire;
+}
+.nav {
+	position: relative;
+	ul {
+		@include reset;
+		display: flex;
+		align-items: center;
+		li {
+			list-style: none;
+			padding: 0 15px;
+			a {
+				color: $white;
+				text-decoration: none;
+			}
+		}
+	}
+}

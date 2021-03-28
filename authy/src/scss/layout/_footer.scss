@@ -1,0 +1,15 @@
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: $white;
+	background: $dark-blue;
+	padding: 15px 25px;
+	p {
+		margin: 0;
+		a {
+			color: $sky;
+			font-weight: 700;
+		}
+	}
+}

@@ -1,0 +1,15 @@
+@mixin reset() {
+	margin: 0;
+	padding: 0;
+}
+
+@mixin width($w: 100%, $h: auto) {
+	width: $w;
+	height: $h;
+}
+
+@mixin position($p, $t, $l) {
+	position: $p;
+	top: $t;
+	left: $l;
+}

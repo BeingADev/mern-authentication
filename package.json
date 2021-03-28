@@ -1,0 +1,41 @@
+{
+	"name": "authy",
+	"version": "1.0.0",
+	"description": "Authuntication and Authurization",
+	"main": "server.js",
+	"scripts": {
+		"server": "nodemon server",
+		"client": "npm start --prefix authy",
+		"dev": "concurrently \"npm run server\" \"npm run client\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/BeingADev/mern-authentication.git"
+	},
+	"keywords": [
+		"Mern",
+		"authuntication",
+		"auth",
+		"app"
+	],
+	"author": "Ali Raza (@BeingADev)",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/BeingADev/mern-authentication/issues"
+	},
+	"homepage": "https://github.com/BeingADev/mern-authentication#readme",
+	"dependencies": {
+		"@sendgrid/mail": "^7.4.2",
+		"bcrypt": "^5.0.1",
+		"concurrently": "^6.0.0",
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"joi": "^17.4.0",
+		"jsonwebtoken": "^8.5.1",
+		"lodash": "^4.17.21",
+		"mongoose": "^5.11.18",
+		"node-sass": "^5.0.0",
+		"nodemailer": "^6.5.0"
+	}
+}
